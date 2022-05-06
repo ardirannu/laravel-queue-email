@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Laravel Queue and Jobs for Email delivery</h1>
+<h1 id="title">Laravel Queue and Jobs for Email delivery</h1>
 
 <p id="description">Using Laravel Queue and Jobs for Email delivery with Gmail SMTP Server</p>
 
