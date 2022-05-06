@@ -25,6 +25,18 @@ And run the initial migrations and seeders.
 php artisan migrate --seed
 ```
 
+Setup SMTP Server.
+
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.googlemail.com
+MAIL_PORT=465
+MAIL_USERNAME=your gmail adresss
+MAIL_PASSWORD=your gmail password
+MAIL_ENCRYPTION=ssl
+MAIL_FROM_ADDRESS=admin@queue-tes.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
   
 <h2>💻 Built with</h2>
 
